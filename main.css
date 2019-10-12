@@ -1,7 +1,15 @@
+
 body {
     margin: 60px auto;
     width: 70%;
 }
+head-text{
+    margin: 60px auto;
+    width: 70%;
+    color: #A52A2A;
+    font-family: 'Helvetica';
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
