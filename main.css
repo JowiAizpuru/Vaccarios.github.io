@@ -3,11 +3,11 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-head-text{
-    margin: 60px auto;
+.head-text{
+    margin: 40px auto;
     width: 70%;
-    color: #A52A2A;
-    font-family: 'Helvetica';
+    color: brown;
+    font-family: 'Sans-Serif';
 }
 
 nav ul, footer ul {
@@ -30,6 +30,11 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+.p-text{
+    font-size:1em;
+    line-height: 1.2em;
+    color: black;
 }
 p {
     font-size: 1.5em;
