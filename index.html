@@ -1,43 +1,97 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Jowi Aizpuru, Learning developer(If u see this parentheses, I got github workin!)</title>
-		<link rel= "stylesheet" type="text/css" href="assets/css/main.css"/>
-	</head>
-	
-	
-	<body>
-		<nav  class = "navbar"> 
-    		<ul>
-        		<li class="navbar-item"><a href="/">Home</a></li>
-				<li class="dropdown navbar-item" >
-					<a href="#">Projects</a>
-					<ul class = "dropdown-content">
-						<li class="dropdown-item"><a href="#">Kitchy: Kitchen Health Assistant</a></li>
-						<li class="dropdown-item"><a href="#">Veracruz Mapper</a></li>
-						<li class="dropdown-item">Coming Soon:</li>
-					</ul>
-				</li>
-	        	<li class="navbar-item"><a href="/about">About</a></li>
-        		<li class="navbar-item"><a href="#">CV</a></li>
-    		</ul>
-		</nav>
 
-		<div class="container">
-			<div class="blurb">
-        		<h1 class="head-text">Hi there, I'm Jowi! Welcome to my personal website</h1>
-				<p>This is a practice website <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
+<head>
+	<title>Jowi Aizpuru, Learning developer(If u see this parentheses, I got github workin!)</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+</head>
 
-			<div class="article">
-					
+
+<body>
+	<nav class="navbar">
+		<ul>
+			<li class="navbar-item"><a href="/">Home</a></li>
+			<li class="dropdown navbar-item">
+				<a href="#">Projects</a>
+				<ul class="dropdown-content">
+					<li class="dropdown-item"><a href="#">Kitchy: Kitchen Health Assistant</a></li>
+					<li class="dropdown-item"><a href="#">Veracruz Mapper</a></li>
+					<li class="dropdown-item">Coming Soon:</li>
+				</ul>
+			</li>
+			<li class="navbar-item"><a href="/about">About</a></li>
+			<li class="navbar-item"><a href="#">CV</a></li>
+		</ul>
+	</nav>
+
+	<div class="container">
+
+		<div class="head-text-container">
+			<h1 class="head-text">Hi there, I'm Jowi! Welcome to my personal website</h1>
+			<p>This is a practice website <a href="/about">Read more about my life...</a></p>
+		</div>
+
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+
+			<!-- Full-width images with number and caption text -->
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				<img src="assets/media/images/stock_image.png" style="width:100%">
+				<div class="text">Caption Text</div>
 			</div>
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:jowikarl@yahoo.com">email</a></li>
-        		<li><a href="https://github.com/vaccarios">github.com/Vaccarios</a></li>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+				<img src="assets/media/images/stock_image.png" style="width:100%">
+				<div class="text">Caption Two</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="assets/media/images/stock_image.png" style="width:100%">
+				<div class="text">Caption Three</div>
+			</div>
+
+			<!-- Next and previous buttons -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+
+		<!-- 
+
+		<div class="marquee-container marquee--hover-pause">
+			<ul class="marquee-content">
+				<li> <img class="marquee-item" src="assets/media/images/stock_image.png"> </li>
+				<li> <img class="marquee-item" src="assets/media/images/stock_image_1.png"> </li>
+				<li> <img class="marquee-item" src="assets/media/images/stock_image_2.png"> </li>
 			</ul>
-		</footer>
-	</body>
+
+			<ul aria-hidden="true" class="marquee-content">
+				<li> <img class="marquee-item" src="assets/media/images/stock_image.png"> </li>
+				<li> <img class="marquee-item" src="assets/media/images/stock_image_1.png"> </li>
+				<li> <img class="marquee-item" src="assets/media/images/stock_image_2.png"> </li>
+			</ul>
+		</div> -->
+	</div>
+
+
+	<footer>
+		<ul>
+			<li><a href="mailto:jowikarl@yahoo.com">email</a></li>
+			<li><a href="https://github.com/jowiaizpuru">github.com/JowiAizpuru</a></li>
+		</ul>
+	</footer>
+
+	<script src="assets/js/main.js"></script>
+</body>
+
 </html>
