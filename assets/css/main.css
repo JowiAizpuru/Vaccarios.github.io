@@ -94,18 +94,19 @@ footer ul li {
   display: block;
 }
 
-.container{
-  text-align:center;
+.container {
+  text-align: center;
 }
 
-#profile-container{
+#profile-container {
   text-align: left;
 }
+
 .works-image {
   max-width: 30vw;
   min-width: 200px;
   height: auto;
-  padding:1%;
+  padding: 1%;
 }
 
 /* .marquee-container {
