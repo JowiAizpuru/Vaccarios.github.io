@@ -2,73 +2,86 @@
 <html>
 
 <head>
-  <title>Jowi Aizpuru, Learning developer(If u see this parentheses, I got github workin!)</title>
+  <title>Jowi Aizpuru, Learning developer(If u see this parentheses, I got github projectin!)</title>
   <link rel="stylesheet" type="text/css" href="../assets/css/main.css" />
 </head>
 
 
 <body>
-  <nav class="navbar">
-    <ul>
-      <li class="navbar-item"><a href="/">Home</a></li>
-      <li class="dropdown navbar-item">
-        <a href="#work-container">Works</a>
-        <!-- <ul class="dropdown-content">
+  <header>
+    <nav class="navbar">
+      <div class="navbar__wrapper ">
+        <div class="navbar__links">
+          <ul>
+            <li class="navbar__link"><a href="/">Home</a></li>
+            <li class="dropdown navbar__link">
+              <a href="#project-container">projects</a>
+              <!-- <ul class="dropdown-content">
 					<li class="dropdown-item"><a href="#">Kitchy: Kitchen Health Assistant</a></li>
 					<li class="dropdown-item"><a href="#">Veracruz Mapper</a></li>
 					<li class="dropdown-item">Coming Soon:</li>
 				</ul>
 			</li> -->
-      <li class="navbar-item"><a href="/about">About</a></li>
-      <li class="navbar-item"><a href="#">CV</a></li>
-    </ul>
-  </nav>
-
-  <div id="profile-container" class="container">
-
-    <div class="head-text-container">
-      <div class="image-title">
-        <img id="profile-img" src="assets/media/images/img_avatar.png" alt="Avatar">
-        <h1 class="head-text">Hi there, I'm Jowi, a software developer! Welcome to my personal website</h1>
+            <li class="navbar__link"><a href="/about">About</a></li>
+            <li class="navbar__link"><a href="#">CV</a></li>
+          </ul>
+        </div>
       </div>
-      <p>
-        Sed vitae pellentesque lacus, sed malesuada augue. Aliquam nec felis vel enim finibus ultrices. Vestibulum
-        ullamcorper faucibus nulla vel mollis. Maecenas lobortis euismod tellus. Mauris quis urna in augue aliquet
-        eleifend. Sed non erat eget mi aliquam venenatis ac ac lorem. Fusce ut feugiat libero. Nam eleifend justo et
-        facilisis varius. Suspendisse consequat a justo sed viverra. Nullam quis vestibulum nibh. Duis luctus pulvinar
-        sem consectetur tincidunt. Etiam sodales mi sed leo lobortis venenatis. Vestibulum ligula justo, volutpat non
-        magna at, iaculis blandit nulla. Phasellus ac enim tempor est laoreet malesuada.
-      </p>
-    </div>
-  </div>
+    </nav>
+  </header>
+  <main>
+    <section id="profile-container">
+      <div class="container">
+        <div class="head-text-container">
+          <div class="image-title">
+            <img id="profile-img" src="assets/media/images/img_avatar.png" alt="Avatar">
+            <h1 class="head-text">Hi there, I'm Jowi, a software developer! Welcome to my personal website</h1>
+          </div>
+          <p>
+            Sed vitae pellentesque lacus, sed malesuada augue. Aliquam nec felis vel enim finibus ultrices. Vestibulum
+            ullamcorper faucibus nulla vel mollis. Maecenas lobortis euismod tellus. Mauris quis urna in augue aliquet
+            eleifend. Sed non erat eget mi aliquam venenatis ac ac lorem. Fusce ut feugiat libero. Nam eleifend justo et
+            facilisis varius. Suspendisse consequat a justo sed viverra. Nullam quis vestibulum nibh. Duis luctus
+            pulvinar
+            sem consectetur tincidunt. Etiam sodales mi sed leo lobortis venenatis. Vestibulum ligula justo, volutpat
+            non
+            magna at, iaculis blandit nulla. Phasellus ac enim tempor est laoreet malesuada.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <br>
-  <div id="work-container" class="container">
-    <h1 class="head-text">My Work</h1>
-    <div class="row">
-      <img class="works-image" src="assets/media/images/stock_image.png">
-      <img class="works-image" src="assets/media/images/stock_image.png">
-    </div>
+    <br>
+    <section id="project-container">
+      <div class="container">
+        <h1 class="head-text">My project</h1>
+        <div class="row">
+          <img class="projects-image" src="assets/media/images/stock_image.png">
+          <img class="projects-image" src="assets/media/images/stock_image.png">
+        </div>
 
-    <div class="row">
-      <img class="works-image" src="assets/media/images/stock_image.png">
-      <img class="works-image" src="assets/media/images/stock_image.png">
-    </div>
-  </div>
+        <div class="row">
+          <img class="projects-image" src="assets/media/images/stock_image.png">
+          <img class="projects-image" src="assets/media/images/stock_image.png">
+        </div>
+      </div>
+    </section>
+    <br>
 
+    <section>
+      <div id="contact-container" class="container">
+        <h1 class="head-text">Contact me!</h1>
+        <div id="send-email-container">
+          <textarea id="email-textarea"></textarea>
+          <textarea id="subject-textarea"></textarea>
+          <textarea id="content-textarea"></textarea>
+          <button>Send</button>
+        </div>
+      </div>
 
-  <br>
+    </section>
 
-
-  <div id="contact-container" class="container">
-    <h1 class="head-text">Contact me!</h1>
-    <div id="send-email-container">
-      <textarea id="email-textarea"></textarea>
-      <textarea id="subject-textarea"></textarea>
-      <textarea id="content-textarea"></textarea>
-      <button>Send</button>
-    </div>
-  </div>
+  </main>
   <footer>
     <ul>
       <li><a href="https://github.com/jowiaizpuru">github.com/JowiAizpuru</a></li>

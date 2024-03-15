@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: #121212;
   margin: auto;
@@ -15,8 +19,7 @@ body {
 }
 
 .head-text {
-
-  font-size: 5vw;
+  font-size: 4rem;
   font-family: 'Sans-Serif';
 }
 
@@ -29,7 +32,7 @@ body {
   padding-top: 20px;
 }
 
-.navbar-item {
+.navbar__link {
   padding: 6px;
   font-size: x-large;
   display: inline-block;
@@ -39,10 +42,9 @@ body {
   background: linear-gradient(to left, #121212 50%, #ffffff 50%) right;
   background-size: 200% 100%;
   transition: .15s ease-out;
-
 }
 
-.navbar-item:hover {
+.navbar__link:hover {
   background-position: left;
   background-color: #ffffff;
   color: #121212
@@ -102,7 +104,7 @@ footer ul li {
   text-align: left;
 }
 
-.works-image {
+.projects-image {
   max-width: 30vw;
   min-width: 200px;
   height: auto;
