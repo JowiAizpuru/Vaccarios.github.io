@@ -1,6 +1,6 @@
-html{
-  font-size: 100%; 
-  font-family: 'Sans-Serif';
+html {
+  font-size: 100%;
+  font-family: 'Sans-Serif', 'Arial';
 }
 
 @media only screen and (max-width: 600px) {
@@ -9,14 +9,18 @@ html{
   }
 }
 
-body{
-  background-color: #121212;
+body {
+
   margin: auto;
-  width: 85%;
-  color: #ffffff;
+
 }
 
-main{
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+main {
   text-align: center;
   box-sizing: border-box;
 }
@@ -43,13 +47,15 @@ a:visited {
   color: inherit;
 }
 
-img{
+img {
   align-self: center;
   max-width: 100%;
   height: auto;
 }
 
 .navbar {
+  background-color: #121212;
+  color: white;
   padding-top: 2rem;
 }
 
@@ -105,17 +111,37 @@ img{
   display: block;
 }
 
-.container--intro .container__img{
+.container {
+  margin: auto;
+  width: 85%;
+}
+
+.container--intro {
+  background-color: white;
+}
+
+.container--intro .container__img {
   justify-content: center;
   border-radius: 50%;
 }
 
-.container--intro h1{
+.container--intro h1 {
   font-size: 3rem;
   line-height: 4rem;
 }
 
+#projects {
+  background-color: black;
+}
 
-.container--projects .container__img{
+.container--projects .container__header {
+  color: white;
+}
+
+.container--projects .container__img {
   padding-top: 0.5rem;
+}
+
+.container--contact-me{
+  
 }

@@ -1,108 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Jowi Aizpuru, Learning developer(If u see this parentheses, I got github
-      projectin!)
-    </title>
-    <link rel="stylesheet" type="text/css" href="../assets/css/main.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar">
-        <div class="navbar__wrapper">
-          <div class="navbar__links">
-            <a class="navbar__link" href="/">Home</a>
-            <a class="dropdown navbar__link" href="#project-container"
-              >projects</a
-            >
-            <a class="navbar__link" href="#">CV</a>
-            <a class="navbar__link" href="/about">About</a>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Jowi Aizpuru, Learning developer(If u see this parentheses, I got github
+    projectin!)
+  </title>
+  <link rel="stylesheet" type="text/css" href="../assets/css/main.css" />
+</head>
 
-            <!-- <ul class="dropdown-content">
+<body>
+  <header>
+
+    <nav class="navbar">
+      <div class="container navbar__wrapper">
+        <div class="navbar__links">
+          <a class="navbar__link" href="/">Home</a>
+          <a class="dropdown navbar__link" href="#project-container">projects</a>
+          <a class="navbar__link" href="#">CV</a>
+          <a class="navbar__link" href="/about">About</a>
+
+          <!-- <ul class="dropdown-content">
 					<li class="dropdown-item"><a href="#">Kitchy: Kitchen Health Assistant</a></li>
 					<li class="dropdown-item"><a href="#">Veracruz Mapper</a></li>
 					<li class="dropdown-item">Coming Soon:</li>
 				</ul>
 			</li> -->
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="introduction">
+      <div class="container container--intro">
+        <img class="container__img" src="assets/media/images/img_avatar.png" alt="Avatar" />
+        <h1 class="head-text">
+          Hi there, I'm Jowi, a software developer! Welcome to my personal
+          website
+        </h1>
+        <p>
+          Sed vitae pellentesque lacus, sed malesuada augue. Aliquam nec
+          felis vel enim finibus ultrices. Vestibulum ullamcorper faucibus
+          nulla vel mollis. Maecenas lobortis euismod tellus. Mauris quis
+          urna in augue aliquet eleifend. Sed non erat eget mi aliquam
+          venenatis ac ac lorem. Fusce ut feugiat libero. Nam eleifend justo
+          et facilisis varius. Suspendisse consequat a justo sed viverra.
+          Nullam quis vestibulum nibh. Duis luctus pulvinar sem consectetur
+          tincidunt. Etiam sodales mi sed leo lobortis venenatis. Vestibulum
+          ligula justo, volutpat non magna at, iaculis blandit nulla.
+          Phasellus ac enim tempor est laoreet malesuada.
+        </p>
+      </div>
+    </section>
+
+    <br />
+    <section id="projects">
+      <div class="container container--projects">
+        <h1 class="container__header">My projects</h1>
+        <img class="container__img" src="assets/media/images/stock_image.png" />
+        <img class="container__img" src="assets/media/images/stock_image.png" />
+
+        <img class="container__img" src="assets/media/images/stock_image.png" />
+        <img class="container__img" src="assets/media/images/stock_image.png" />
+      </div>
+    </section>
+    <br />
+
+    <section>
+      <div id="contact-container" class="container">
+        <h1 class="head-text">Contact me!</h1>
+        <div id="send-email-container">
+          <div>
+            <textarea class="container__textarea ">Email address here</textarea>
           </div>
+          <textarea class="container__textarea">Subject here</textarea>
+          <textarea class="container__textarea">Message here</textarea>
+          <button>Send</button>
         </div>
-      </nav>
-    </header>
-    <main>
-      <section id="introduction">
-        
-        <div class="container container--intro">
-              <img class="container__img"
-                src="assets/media/images/img_avatar.png"
-                alt="Avatar"
-              />
-              <h1 class="head-text">
-                Hi there, I'm Jowi, a software developer! Welcome to my personal
-                website
-              </h1>
-            <p>
-              Sed vitae pellentesque lacus, sed malesuada augue. Aliquam nec
-              felis vel enim finibus ultrices. Vestibulum ullamcorper faucibus
-              nulla vel mollis. Maecenas lobortis euismod tellus. Mauris quis
-              urna in augue aliquet eleifend. Sed non erat eget mi aliquam
-              venenatis ac ac lorem. Fusce ut feugiat libero. Nam eleifend justo
-              et facilisis varius. Suspendisse consequat a justo sed viverra.
-              Nullam quis vestibulum nibh. Duis luctus pulvinar sem consectetur
-              tincidunt. Etiam sodales mi sed leo lobortis venenatis. Vestibulum
-              ligula justo, volutpat non magna at, iaculis blandit nulla.
-              Phasellus ac enim tempor est laoreet malesuada.
-            </p>
-        </div>
-      </section>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <ul>
+      <li>
+        <a href="https://github.com/jowiaizpuru">github.com/JowiAizpuru</a>
+      </li>
+    </ul>
+  </footer>
 
-      <br />
-      <section id="projects">
-        <div class="container container--projects">
-          <h1 class="head-text">My project</h1>
-            <img
-              class="container__img"
-              src="assets/media/images/stock_image.png"
-            />
-            <img
-              class="container__img"
-              src="assets/media/images/stock_image.png"
-            />
+  <script src="../assets/js/main.js"></script>
+</body>
 
-            <img
-              class="container__img"
-              src="assets/media/images/stock_image.png"
-            />
-            <img
-              class="container__img"
-              src="assets/media/images/stock_image.png"
-            />
-        </div>
-      </section>
-      <br />
-
-      <section>
-        <div id="contact-container" class="container">
-          <h1 class="head-text">Contact me!</h1>
-          <div id="send-email-container">
-            <textarea id="email-textarea"></textarea>
-            <textarea id="subject-textarea"></textarea>
-            <textarea id="content-textarea"></textarea>
-            <button>Send</button>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <ul>
-        <li>
-          <a href="https://github.com/jowiaizpuru">github.com/JowiAizpuru</a>
-        </li>
-      </ul>
-    </footer>
-
-    <script src="../assets/js/main.js"></script>
-  </body>
 </html>
